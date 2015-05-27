@@ -42,7 +42,7 @@ var total1=0
   $('#button1').click(function() {
   $('#total1').html(function() {
     return total1 += 1 });
-  });
+  })
 
   var total2=0
   $('#button2').click(function() {
@@ -50,14 +50,22 @@ var total1=0
     return total2 += 1 });
   });
 
-
     $('#button1').click(function(){
         $('#pic2').slideUp();
-        $('#button2').slideUp();;
+        $('#button2').slideUp();
     });
     $('#button2').click(function(){
         $('#pic1').slideUp();
         $('#button1').slideUp();
     });
 });
+
+
+// var total=0
+//   $('button').click(function() {
+//   $(this).html(function() {
+//     return total += 1 });
+//   var loserId = this.id == 'button1' ? 'button2' :'button1';
+
+//   });
 
