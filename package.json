@@ -1,0 +1,22 @@
+{
+  "name": "vote_tracker",
+  "version": "1.0.0",
+  "description": "Create a app that tracks the wins of the cuttest kitten. Click on the button of the cat you like. The total increases and the bad cat goes away.",
+  "main": "jquery-1.11.3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zgordon6414/Vote-Tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zgordon6414/Vote-Tracker/issues"
+  },
+  "homepage": "https://github.com/zgordon6414/Vote-Tracker",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}
