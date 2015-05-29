@@ -1,13 +1,11 @@
 var express = require('express');
 var app = express();
 
-
+app.set('port', (process.env.PORT || 5000));
 app.use(express.static('all'));
 
-var server = app.listen(5000, function () {
-
+app.listen(app.get('port'), function () {
   console.log('Example app running');
-
 });
 
 app.get('/secret', function (req, res) {
